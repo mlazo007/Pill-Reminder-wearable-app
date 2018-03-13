@@ -1,0 +1,319 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/chrono_clock_bg.png");
+}
+
+#dial {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/watch-face-0-refills.png");
+}
+
+#dial.refill-one {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/watch-face-1-refills.png");
+}
+#dial.refill-two {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/watch-face-2-refills.png");
+}
+#dial.refill-three {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/watch-face-3-refills.png");
+}
+#dial.refill-four {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/watch-face-4-refills.png");
+}
+#dial.refill-five {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/watch-face-5-refills.png");
+}
+
+#components-const {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#circle-date {
+    position: absolute;
+    left: 245px;
+    top: 154px;
+    width: 52px;
+    height: 52px;
+    background-image: url("../image/chrono_date_bg.png");
+    color: #ffffff;
+    text-align: center;
+    line-height: 52px;
+    font-size: 24px;
+}
+
+#dial-inner-second {
+    position: absolute;
+    left: 30px;
+    top: 117px;
+    width: 126px;
+    height: 126px;
+    background-image: url("../image/4h_dial.png");
+}
+
+#hand-dial-inner-second {
+    position: absolute;
+    left: 57px;
+    top: 0px;
+    width: 12px;
+    height: 126px;
+    background-image: url("../image/chrono_s_60_hand.png");
+    background-position: center top;
+    background-size: contain;
+}
+
+#dial-swatch-minute {
+    position: absolute;
+    left: 130px;
+    top: 30px;
+    width: 95px;
+    height: 95px;
+    background-image: url("../image/prescription-refill-128.png");
+}
+
+#hand-dial-swatch-minute {
+    position: absolute;
+    left: 57px;
+    top: 0px;
+    width: 12px;
+    height: 126px;
+    background-image: url("../image/chrono_ss_30_hand.png");
+    background-position: center top;
+    background-size: contain;
+}
+
+#dial-swatch-hour {
+    position: absolute;
+    left: 117px;
+    top: 204px;
+    width: 126px;
+    height: 126px;
+    background-image: url("../image/cigna-basic.png");
+}
+
+#hand-dial-swatch-hour {
+    position: absolute;
+    left: 57px;
+    top: 0px;
+    width: 12px;
+    height: 126px;
+    background-image: url("../image/chrono_h_12_hand.png");
+    background-position: center top;
+    background-size: contain;
+}
+
+#components-main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#hand-swatch-second {
+    position: absolute;
+    left: 170px;
+    top: 0px;
+    width: 20px;
+    height: 360px;
+    background-image: url("../image/chrono_stopwatch_hand_sec.png");
+    background-position: center top;
+    background-size: contain;
+}
+
+#hand-main-hour {
+    position: absolute;
+    left: 166px;
+    top: 61px;
+    width: 28px;
+    height: 238px;
+    background-image: url("../image/chrono_hand_hour.png");
+    background-position: center top;
+    background-size: contain;
+}
+
+#hand-main-minute {
+    position: absolute;
+    left: 166px;
+    top: 0px;
+    width: 28px;
+    height: 360px;
+    background-image: url("../image/chrono_hand_min.png");
+    background-position: center top;
+    background-size: contain;
+}
+
+#components-swatch {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#confirmation {
+    position: absolute;
+    margin-top: 40%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    text-align: center;
+    color: white;
+}
+#message1,#message2{
+  margin-top: 20px;
+}
+
+
+#text-swatch {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    width: 160px;
+    height: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#text-swatch-minute {
+    width: 40px;
+    height: 48px;
+    margin-top: 6px;
+    margin-left: 12px;
+    line-height: 48px;
+    font-size: 36px;
+    float: left;
+}
+
+#text-swatch-colon {
+    width: 8px;
+    height: 48px;
+    margin-top: 6px;
+    float: left;
+    background-image: url("../image/chrono_stopwatch_time_colon.png");
+}
+
+#text-swatch-second {
+    width: 40px;
+    height: 48px;
+    margin-top: 6px;
+    line-height: 48px;
+    font-size: 36px;
+    float: left;
+}
+
+#text-swatch-dot {
+    width: 8px;
+    height: 48px;
+    margin-top: 6px;
+    float: left;
+    background-image: url("../image/chrono_stopwatch_time_point.png");
+}
+
+#text-swatch-msecond {
+    width: 40px;
+    height: 48px;
+    margin-top: 6px;
+    line-height: 48px;
+    font-size: 36px;
+    float: left;
+}
+
+#button-swatch-exit {
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    width: 60px;
+    height: 60px;
+    background-image: url("../image/chrono_stopwatch_btn_close.png");
+}
+
+#button-swatch-start {
+    position: absolute;
+    left: 260px;
+    top: 150px;
+    width: 60px;
+    height: 60px;
+    background-image: url("../image/chrono_stopwatch_btn_resume.png");
+}
+#select-no  {
+    position: absolute;
+    left: 8%;
+    top: 0%;
+    width: 60px;
+    height: 60px;
+    background-image: url("../image/chrono_stopwatch_btn_close.png");
+}
+
+#select-yes {
+    position: absolute;
+    right: 8%;
+    top: 0%;
+    width: 60px;
+    height: 60px;
+    background-image: url("../image/green-check.png");
+}
+
+#components-toucharea {
+    position: absolute;
+}
+
+#toucharea-swatch-top {
+    position: absolute;
+    left: 117px;
+    top: 0px;
+    width: 126px;
+    height: 156px;
+}
+
+#toucharea-swatch-left {
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    width: 60px;
+    height: 60px;
+}
+
+#toucharea-swatch-bot {
+    position: absolute;
+    left: 117px;
+    top: 204px;
+    width: 126px;
+    height: 126px;
+}
+
+.spin-timer{
+	-webkit-animation: spin 10s linear;
+}
+
+@-webkit-keyframes spin {
+	0%  {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(360deg);}	
+}
+

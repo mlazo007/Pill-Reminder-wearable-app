@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/ChronographWatch2" version="1.0.0" viewmodes="maximized">
+    <access origin="http://localhost:8080/setRefills/5" subdomains="true"></access>
+    <tizen:application id="xH9YJOQBke.ChronographWatch2" package="xH9YJOQBke" required_version="2.3.1"/>
+    <tizen:category name="http://tizen.org/category/wearable_clock"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>ChronographWatch2</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:profile name="wearable"/>
+</widget>
