@@ -113,11 +113,11 @@ html, body {
 
 #dial-swatch-hour {
     position: absolute;
-    left: 117px;
-    top: 204px;
-    width: 126px;
-    height: 126px;
-    background-image: url("../image/cigna-basic.png");
+    left: 110px;
+    top: 241px;
+    width: 160px;
+    height: 41px;
+    background-image: url("../image/accredo-logo.png");
 }
 
 #hand-dial-swatch-hour {

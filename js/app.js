@@ -439,7 +439,7 @@
      * @private
      */
     function setRefillsEvents() {	
-    	fetch('http://10.242.14.28:8080/setRefills/5', { method: 'GET' })
+    	fetch('http://10.241.115.20:8080/setRefills/5', { method: 'GET' })
     	  .then(function(response) {
     	    return response.json();
     	  })
@@ -449,7 +449,7 @@
     	  }, function(e) { console.log(e) });
     }
     function decrementRefillCount() {
-    	fetch('http://10.242.14.28:8080/determineRefills', { method: 'GET' })
+    	fetch('http://10.241.115.20:8080/determineRefills', { method: 'GET' })
   	  .then(function(response) {
   	    return response.json();
   	  })
